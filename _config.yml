@@ -64,22 +64,22 @@ include:
 defaults:
   # _posts
   - scope:
-    path: ""
-    type: posts
-  values:
-    layout: single
-    author_profile: true
-    read_time: false
-    comments: false
-    share: true
-    related: true
-    show_date: true
-  #_pages
-  - scope"
       path: ""
-      type: pages
-    values:
+      type: posts
+  values:
+      layout: single
       author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: true
+      show_date: true
+  #_pages
+  - scope:
+        path: ""
+        type: pages
+    values:
+        author_profile: true
 
 # Pagination
 paginate: 5 # posts per page
