@@ -31,10 +31,14 @@ github_username:  ariellam99
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "neon"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate-v2
+
+# Include
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,3 +59,72 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Formatting
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+  values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: true
+      show_date: true
+  #_pages
+  - scope:
+        path: ""
+        type: pages
+    values:
+        author_profile: true
+
+# Pagination
+paginate: 5 # posts per page
+paginate_path: /blog/page:num/
+
+# Site Author Profile
+author:
+  name: "Ariella Miller"
+  avatar: "assets/images/FullSizeRender.jpeg"
+  bio: "Computer Science Student & Steminist"
+  location: "Kansas City, MO"
+  email: ariellamiller99@gmail.com
+  facebook:
+  github: "ariellam99"
+  instagram: "ari_m_dev"
+  linkedin: "ariella-miller-dev"
+  twitter:
+  youtube: "ari-m-dev"
+
+# Site Footer
+footer:
+  links:
+    -label:
+      icon: "fa-brands fa-linkedin"
+      url: "www.linkedin.com/in/ariella-miller-dev"
+    -label:
+      icon: "fa-brands fa-github"
+      url: "https://github.com/ariellam99"
+    -label:
+      icon: "fa-brands fa-instagram"
+      url: "https://www.instagram.com/ari_m_dev/"
+    -label:
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/@ari-m-dev"
+
+# Archives
+category_archives:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Collections
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path/
