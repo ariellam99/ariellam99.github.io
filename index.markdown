@@ -1,23 +1,19 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
----
-title: "Home"
+title: "Welcome"
 layout: splash
 permalink: /index/
 
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#919C9D"
+  overlay_filter: "0.0"
   
 actions:
   - label: "About Me"
     url: "https://ariellam99.github.io/about"
-  - excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  - excerpt: "Learn a little bit about who I am and what my goals are."
   
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Here is what I have been working on lately.'
 
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg

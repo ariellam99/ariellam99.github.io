@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ari's Corner of the Web
+title: Ari's Blog
 email: ariellamiller99@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm Ari, a young woman in Kansas City who is passionate about technology. 
@@ -87,7 +87,7 @@ paginate_path: /blog/page:num/
 
 # Site Author Profile
 author:
-  name: "Ariella Miller"
+  name: "Ari Miller"
   avatar: "assets/images/FullSizeRender.jpeg"
   bio: "Computer Science Student & Steminist"
   location: "Kansas City, MO"
