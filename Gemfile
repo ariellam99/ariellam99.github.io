@@ -35,3 +35,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-paginate-v2", "~> 3.0"
 gem "jekyll-archives"
+gem 'webrick'
+gem 'liquid'
